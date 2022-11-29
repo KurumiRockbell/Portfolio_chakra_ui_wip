@@ -1,0 +1,28 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "0xMetamoth Website Portfolio.",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "prettier": "prettier -write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "0xMetamoth <@meta_moth_>",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/styled": "^11.8.1",
+    "framer-motion": "^6.3.1",
+    "next": "^12.1.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.14.0",
+    "eslint-config-next": "^12.1.5",
+    "prettier": "^2.6.2"
+  }
+}
