@@ -11,6 +11,7 @@ align-items: center;
 height: 30px;
 line-height: 20px;
 padding: 10px;
+viewBox: 0 24 0 24;
 
 &:hover img {
     transform: rotate(20deg);
@@ -18,7 +19,7 @@ padding: 10px;
 `
 
 const Logo = ( ) => {
-    const footPrintImg = `/images/footprint.png `
+    const footPrintImg = `/images/footprint.png`
     
     return (
         <Link href="/">
